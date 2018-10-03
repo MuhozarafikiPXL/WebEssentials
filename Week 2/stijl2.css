@@ -1,0 +1,34 @@
+body{
+    background-color: #d9ddd7 ;
+    font-family: verdana;
+}
+h1{
+    color: #007f00;
+}
+
+p{
+    background-color: #6a7689;
+    color: white;
+    padding: 20px;
+}
+p.highlight{
+    margin-right: 20%;
+    margin-left: 20%;
+    color: yellow;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 2px;
+
+}
+a:hover{
+color: #6df469;
+}
+a.PKP{
+    color:blue;
+}
+.highlight{
+    text-align: center;
+}
+a{
+    color : white;
+}

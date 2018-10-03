@@ -1,0 +1,14 @@
+table{
+    font-family: roborto;
+    color: white;
+    position : center;
+    border-color: black;
+}
+tr >td:first-child{
+    text-align: center;
+}
+
+thead{
+    background-color:#1a54b2 ;
+
+}

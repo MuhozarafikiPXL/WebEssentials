@@ -1,0 +1,107 @@
+body{
+    font-style: revert;
+    background-color: #6a7689;
+}
+h1{
+    font-weight: normal;
+    color: orange;
+}
+h2{
+    font-weight: normal;
+    color:white;
+}
+iframe{
+    border-style: solid;
+    border-color: white;
+    border-width:2px;
+}
+ol,ul,a{
+    color:white;
+}
+.muziek {
+    list-style-image:url("if_47_111099.png") ;
+    list-style-type: none;
+    list-style-position: inside;
+
+}
+.muziek {
+    list-style: none;
+    padding-left: 0;
+}
+.muziek li {
+    position: relative;
+    padding-left: 20px;
+}
+.muziek li:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-image: url('if_47_111099.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+a:hover{
+    color: lightpink;
+}
+#pkp:hover{
+    color: lightpink;
+}
+#pkp,#dr,#gs,#tm,#rw{
+    border-style: solid;
+    border-radius:6px;
+    border-color: grey;
+    margin-left: 10px;
+    margin-outside: 33px;
+    padding: 6px;
+}
+h3 {
+    font-weight: normal;
+    color: black;
+    border-color: saddlebrown;
+    border-style: solid;
+    border-radius: 1px;
+    height: 70px;
+    width: 950px;
+}
+a{
+    padding: 35px 70px 50px;
+}
+
+#pukkel{
+    border-style: solid;
+    border-radius:1px;
+
+    background-color: #a4d5f9;
+}
+#rock{
+    border-style: solid;
+    border-radius:1px;
+
+    background-color: #f9cba4;
+}
+#tom{
+    border-style: solid;
+    border-radius:1px;
+
+    background-color: #f7b9f0;
+}
+#gras{
+    border-style: solid;
+    border-radius:1px;
+
+    background-color: #8cf2ba;
+}
+#dour{
+    border-style: solid;
+    border-radius:1px;
+
+    background-color: #f2eeae;
+}
+h3 a{
+}
